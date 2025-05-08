@@ -1,4 +1,4 @@
-# Title: What is type inference in TypeScript? Why is it helpful?
+1. # Title: What is type inference in TypeScript? Why is it helpful?
 
 ##  A Real Story from Our Development Team
 
@@ -66,7 +66,7 @@ TypeScript immediately throws an error because the type doesn’t match!
 
 
 
-# Title: How does TypeScript help in improving code quality and project maintainability?
+2. # Title: How does TypeScript help in improving code quality and project maintainability?
 
 
 Once upon a time, in a village called **Rasel**, the people were working hard on building a big app using **JavaScript**.
@@ -82,7 +82,7 @@ Everyone was frustrated. The code was messy, and bugs were everywhere.
 
 ---
 
-## 🦸‍♂️ Then Came a Hero — TypeScript!
+##  Then Came a Hero — TypeScript!
 
 One day, a hero named **TypeScript** arrived in Rasel and said:
 
@@ -101,11 +101,11 @@ Thanks to TypeScript:
 
 ---
 
-## 🎉 The Happy Ending
+##  The Happy Ending
 
 Now, the people of **Rasel** are happy.  
 Their app works smoothly, and they no longer get stuck with silly bugs.
 
-All thanks to their hero — **TypeScript**! 🧠💪
+All thanks to their hero — **TypeScript**! 
 
 ---
