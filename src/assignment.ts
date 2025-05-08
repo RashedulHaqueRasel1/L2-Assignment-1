@@ -1,24 +1,23 @@
 
-// 1
+
 function formatString(input: string, toUpper: boolean = true): string {
     return toUpper ? input.toUpperCase() : input.toLowerCase();
 }
 
 
-// 2
+
 function filterByRating(items: { title: string; rating: number }[]): { title: string; rating: number }[] {
     return items.filter(item => item.rating >= 4);
 }
 
 
 
-// 3
 function concatenateArrays<all>(...arrays: all[][]): all[] {
     return ([] as all[]).concat(...arrays);
 }
 
 
-// 4
+
 class Vehicle {
     constructor(public make: string, public year: number) { }
 
@@ -39,7 +38,7 @@ class Car extends Vehicle {
 
 
 
-// 5
+
 function processValue(value: string | number): number {
     if (typeof value === "string") {
         return value.length;
@@ -50,7 +49,7 @@ function processValue(value: string | number): number {
 }
 
 
-// 6
+
 interface Product {
     name: string;
     price: number;
@@ -63,7 +62,7 @@ function getMostExpensiveProduct(products: Product[]): Product | null {
 }
 
 
-// 7
+
 enum Day {
     Monday,
     Tuesday,
@@ -83,7 +82,7 @@ function getDayType(day: Day): string {
 }
 
 
-// 8
+
 async function squareAsync(n: number): Promise<number> {
     await new Promise(resolve => setTimeout(resolve, 1000));
     if (n < 0) {
